@@ -24,7 +24,7 @@ public class Algoritmo3Test {
     * Teste envio de argumento inválido para o método SomaNaturais, da classe Algoritmo3.
     */
     @Test(expected=IllegalArgumentException.class)
-    public void testAnoInvalido() {
+    public void testArgumentoInvalido() {
        Algoritmo3 instance = new Algoritmo3();
        instance.SomaNaturais(0);
     }
