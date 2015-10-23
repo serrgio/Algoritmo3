@@ -15,8 +15,10 @@ public class Algoritmo3Test {
     public void testSomaNaturais() {
         int n = 2;
         Algoritmo3 instance = new Algoritmo3();
+        
         int expResult = 3;
         int result = instance.SomaNaturais(n);
+        
         assertEquals(expResult, result);
     } 
     
